@@ -1,0 +1,51 @@
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}
+/* element selector */
+p {
+    color: yellow;
+    font-size: 22px;
+}
+/* descendant selector */
+ul li{
+    font-size: 32px;
+    color: lightgreen;
+}
+
+.parent{
+    width: 100vw;
+    background-image: url('https://wallpaperplay.com/walls/full/d/e/e/20898.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    color: lightseagreen;
+}
+
+.wrapper{
+    /* background-color: aquamarine; */
+    width: 100vw;
+    display: flex;
+}
+.paragraph1{
+    padding: 30px;
+    border: 1px solid goldenrod;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.paragraph2{
+    padding: 30px;
+    border: 1px solid goldenrod;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
